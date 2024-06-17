@@ -3,9 +3,9 @@ TrackMyPractice is a Chrome extension to help users track their coding practice 
 
 
 <p align="center">
-  <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d" alt="Screenshot 2024-06-17 at 12 36 03 PM" width="30%" height="550px" style="margin: 0 10px; object-fit: cover;">
-  <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/9db6f76c-1cac-4171-8ad1-db7d81c229cc" alt="Screenshot 2024-06-17 at 1 04 21 PM" width="30%" height="550px" style="margin: 0 10px; object-fit: cover;">
-  <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f" alt="Screenshot 2024-06-17 at 12 36 37 PM" width="30%" height="550px" style="margin: 0 10px; object-fit: cover;">
+  <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d" alt="Screenshot 2024-06-17 at 12 36 03 PM" width="30%" style="margin: 0 10px; object-fit: cover;">
+  <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/9db6f76c-1cac-4171-8ad1-db7d81c229cc" alt="Screenshot 2024-06-17 at 1 04 21 PM" width="30%" style="margin: 0 10px; object-fit: cover;">
+  <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f" alt="Screenshot 2024-06-17 at 12 36 37 PM" width="30%" style="margin: 0 10px; object-fit: cover;">
 </p>
 
 
