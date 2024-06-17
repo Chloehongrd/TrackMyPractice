@@ -1,0 +1,383 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow: hidden; /* Prevent vertical scroll */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --background-color: #2c3e50;
+  --text-color: #ecf0f1;
+  --button-color: #27ae60;
+  --button-hover-color: #1e8449;
+  --border-color: #34495e;
+  --export-button-bg: rgba(0, 0, 0, 0.1);
+  --export-button-text: #bdc3c7;
+}
+
+.container {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.interface {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  scroll-snap-align: start;
+}
+
+form {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #b0b3b8;
+}
+
+/* Input field styles */
+input[type="text"],
+select {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--border-color);
+  color: var(--text-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+input[type="text"]::placeholder,
+select::placeholder {
+  color: #95a5a6;
+}
+
+/* Hover and focus styles for input and select elements */
+input[type="text"]:hover,
+select:hover,
+input[type="text"]:focus,
+select:focus {
+  border-color: var(--button-color);
+  outline: none;
+  box-shadow: 0 3px 10px var(--button-color);
+  background-color: var(--background-color); /* Adjusted for consistency */
+  color: var(--text-color); /* Adjusted for consistency */
+}
+
+/* Midnight color scheme specific styles */
+body.midnight input[type="text"],
+body.midnight select {
+  background-color: #424242;
+  color: #BDBDBD;
+}
+
+body.midnight input[type="text"]:hover,
+body.midnight select:hover,
+body.midnight input[type="text"]:focus,
+body.midnight select:focus {
+  border-color: #1e8449;
+  background-color: #212121;
+  color: #BDBDBD;
+  box-shadow: 0 3px 10px #1e8449;
+}
+
+.small-button {
+  padding: 5px;
+  font-size: 12px;
+  border: none;
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.small-button:hover {
+  background-color: var(--button-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: var (--text-color);
+}
+
+ul ul {
+  margin: 0;
+  padding-left: 10px; /* Reduced padding */
+}
+
+ul ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#export-button-1, #export-button-2,
+#style-button-1, #style-button-2 {
+  margin-top: 10px;
+  width: 48%; /* Adjusted width */
+  background-color: var(--background-color); /* Button background color */
+  color: white; /* Button text color */
+  font-size: 11px; /* Smaller font size */
+  padding: 3px; /* Reduced padding */
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#export-button-1:hover, #export-button-2:hover,
+#style-button-1:hover, #style-button-2:hover {
+  background-color: var(--background-color); /* Button hover background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.style-select-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#style-button-1 option, #style-button-2 option {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.button {
+  padding: 3px;
+  font-size: 11px;
+  border: none;
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom context menu styles */
+#context-menu {
+  position: absolute;
+  background-color: #ecf0f1;
+  padding: 0px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#context-menu div {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(86, 86, 86); /* Ensure text color is black */
+}
+
+#context-menu div:hover {
+  background-color: #bdc3c7;
+}
+
+#context-menu div.delete-option {
+  color: #e74c3c;
+}
+
+#context-menu div.delete-option:hover {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* Style for new delete button within list items */
+.group-container .delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.group-container .delete-button:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+/* Ensure the text does not nudge the delete button */
+.group-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.group-container li a {
+  flex-grow: 1;
+  margin-right: 10px;
+  color: #bdc3c7;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  overflow: hidden;
+  width: 200px; 
+  white-space: normal; 
+  text-overflow: ellipsis;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 2px solid transparent; /* Initial border is transparent */
+}
+
+
+.group-container li a .editable-text {
+  display: inline-block;
+  width: 100%;
+}
+
+group-container li a:hover .editable-text,
+.group-container li a:focus .editable-text {
+  background-color: transparent; /* Keep background color transparent */
+  color: white;
+  outline: none; /* Remove default outline */
+  border: 2px solid var(--button-color); /* Green border on focus */
+  box-shadow: 0 0 5px var(--button-color); /* Add green box-shadow */
+}
+
+/* Confirmation dialog styles */
+#confirmation-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#confirmation-dialog p {
+  margin-bottom: 15px;
+  margin-top: 10px; 
+  color: black; /* Change font color to black */
+}
+
+#confirmation-dialog .delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#confirmation-dialog .delete-button:hover {
+  background-color: #c0392b;
+}
+
+#confirmation-dialog .cancel-button {
+  background-color: #95a5a6;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#confirmation-dialog .cancel-button:hover {
+  background-color: #7f8c8d;
+}
+
+/* Style for group containers */
+.group-container {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: var(--background-color);
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth border and shadow changes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Style for group container hover and focus states */
+.group-container:hover,
+.group-container:focus-within {
+  border-color: var(--button-hover-color); /* Change border color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Add this rule to reduce the size of the group name */
+.group-container h3 {
+  font-size: 12px; /* Slightly larger font size for better readability */
+  color: var(--text-color);
+  margin: 0; /* Remove default margin */
+  padding-bottom: 5px; /* Add padding below the group name */
+  border-bottom: 1px solid var(--border-color); /* Add subtle border below the group name */
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Style for group name hover and focus states */
+.group-container h3:hover,
+.group-container h3:focus {
+  color: var(--button-hover-color); /* Change text color on hover */
+}

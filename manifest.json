@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Page Saver",
+    "version": "3.1",
+    "description": "Save pages with hyperlinks and categorize them.",
+    "permissions": ["tabs", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+  
