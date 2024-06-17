@@ -4,10 +4,10 @@ TrackMyPractice is a Chrome extension to help users track their coding practice 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px;">
   <div style="flex: 1 1 200px; display: flex; justify-content: center;">
-    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d" alt="Screenshot 2024-06-17 at 12 36 03 PM" style="height: 430px; object-fit: cover; width: auto;">
-    <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/9db6f76c-1cac-4171-8ad1-db7d81c229cc" alt="Screenshot 2024-06-17 at 1 04 21 PM" style="height: 430px; object-fit: cover; width: auto;">
-    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f" alt="Screenshot 2024-06-17 at 12 36 37 PM" style="height: 430px; object-fit: cover; width: auto;">
-    <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/69770206-efd5-4ebe-8f15-5f981661311c" alt="Screenshot 2024-06-17 at 1 29 42 PM" style="height: 430px; object-fit: cover; width: auto;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d" alt="Screenshot 2024-06-17 at 12 36 03 PM" style="height: 450px; object-fit: cover; width: auto;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/9db6f76c-1cac-4171-8ad1-db7d81c229cc" alt="Screenshot 2024-06-17 at 1 04 21 PM" style="height: 450px; object-fit: cover; width: auto;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f" alt="Screenshot 2024-06-17 at 12 36 37 PM" style="height: 450px; object-fit: cover; width: auto;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice_ChromeExtension/assets/172913904/69770206-efd5-4ebe-8f15-5f981661311c" alt="Screenshot 2024-06-17 at 1 29 42 PM" style="height: 450px; object-fit: cover; width: auto;">
   </div>
 </div>
 
