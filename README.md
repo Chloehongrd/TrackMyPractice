@@ -1,11 +1,12 @@
-# TrackMyPractice
+# TrackMyPractice 🎯
 
 ## Overview
 TrackMyPractice is a Chrome extension designed to help users track their coding practice across various platforms such as LeetCode and StrataScratch. It offers features for tracking progress, adding notes to saved items, and exporting data to a CSV file for easy management.
 
-![Screenshot 2024-06-17 at 12 36 03 PM](https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d)
-
-![Screenshot 2024-06-17 at 12 36 37 PM](https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/974a23d1-ec43-4e76-b3dc-d9e197d3809d" alt="Screenshot 2024-06-17 at 12 36 03 PM" style="width: 45%;">
+    <img src="https://github.com/Chloehongrd/TrackMyPractice/assets/172913904/3379ab5c-10fc-4d9b-a147-e157f103808f" alt="Screenshot 2024-06-17 at 12 36 37 PM" style="width: 45%;">
+</div>
 
 ## Features
 - **Click and Save:** Easily save coding questions from various platforms to track your progress.
