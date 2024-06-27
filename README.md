@@ -29,4 +29,4 @@ TrackMyPractice is a Chrome extension to help users track their coding practice 
 The extension will soon be available in the Chrome Store. Stay tuned!
 
 
-<div align="right">June, 2023</div>
+<div align="right">June, 2024</div>
